@@ -1,9 +1,14 @@
 <template>
     <div class="landing">
-      <h1>Asandile Langeni</h1> <br>
-      <h3>Aspiring Web developer</h3>
-      <br>
-      <a href="https://github.com/Asandile26" target="_blank"> <i class="bi bi-github"> </i> </a>  <a href="https://twitter.com/LA_Nator21" target="_blank"><i class="bi bi-twitter"></i> </a>  <a href="https://m.facebook.com/100090013194612/"><i class="bi bi-facebook"></i> </a> 
+      <div class="line">
+        <h1>Asandile Langeni</h1> <br>
+        <h3>Aspiring Web developer</h3>
+        <br>
+        <a href="https://github.com/Asandile26" target="_blank"> <i class="bi bi-github"> </i> </a>  <a href="https://twitter.com/LA_Nator21" target="_blank"><i class="bi bi-twitter"></i> </a>  <a href="https://m.facebook.com/100090013194612/"><i class="bi bi-facebook"></i> </a> 
+      </div>
+      <div class="image  img-fluid" width="50vw">
+        <img src="https://i.postimg.cc/hPTTdbg2/IMG-20200911-144520-removebg-preview.png" alt="">
+      </div>
     </div>
   
   
@@ -183,8 +188,23 @@ justify-content: center;
 }
 }
 .landing{
-  
-
+  background-color: #0c0c0c;
+  height: 90vh;
+}
+.line{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+  left: 600px;
+  z-index: 1;
+}
+.image{
+  position: absolute;
+  top: 5px;
+  left: 500px;
+  z-index: 0;
 }
 
 </style>
