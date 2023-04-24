@@ -59,13 +59,20 @@
 </template>
 <script>
 export default {
-    name: 'Resume'
+    name: 'Resume',
 }
 </script>
 <style>
 .container {
   margin-bottom: 50px;
   width: 48%;
+  font-size: 20px;
+  font-weight: 400;
+}
+.content p {
+  font-size: 20px;
+  font-weight: 300;
+  color: #0c0c0c;
 }
  /* Apply styles to the Resume title */
  h1 {
@@ -107,7 +114,7 @@ export default {
       
       /* Apply styles to the year headings */
       .content h2 {
-        font-size: 24px;
+        font-size: 30px;
         color: #333;
       }
       
@@ -121,8 +128,8 @@ export default {
       
       /* Apply styles to the duration information */
       .content p:not(:first-child) {
-        font-size: 16px;
-        color: #777;
+        font-size: 25px;
+        color: #0c0c0c;
         margin-bottom: 10px;
       }
       
@@ -180,5 +187,14 @@ export default {
 .right::after {
   left: -16px;
 }
- 
+
+@media screen and (max-width: 600px) {
+  .timeline::after, .container::after, .left::before, .right::before {
+    display: none;
+  }
+  .timeline {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 </style>

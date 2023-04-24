@@ -42,10 +42,10 @@ data() {
                 },
                 {
                 id:3,
-                title: 'CSS MediaQuery',
-                image: 'https://i.postimg.cc/Dyt794zy/css-media2.png',
-                githubLink: 'https://github.com/Asandile26/ccs-media-querries.git',
-                netlifyLink: 'https://css-media-queryasandilelangeni.netlify.app'
+                title: 'CapStone',
+                image: 'https://i.postimg.cc/bJxW0h1N/capstone.png',
+                githubLink: 'https://github.com/Asandile26/capstone_final.git',
+                netlifyLink: 'capstone-asandile.firebaseapp.com'
                 },
                 {
                 id:4,
@@ -56,10 +56,10 @@ data() {
                 },
                 {
                 id:5,
-                title: 'Revision',
-                image: 'https://i.postimg.cc/tJ0rXDQg/Screenshot-2022-11-05-095815.png',
-                githubLink: 'https://github.com/Asandile26/Revision.git',
-                netlifyLink: 'https://scouzerrevison.netlify.app'
+                title: 'Vue-Portfolio',
+                image: 'https://i.postimg.cc/2y5GqRwt/Vue-portfolio.png',
+                githubLink: 'https://github.com/Asandile26/Vue-Portfolio.git',
+                netlifyLink: 'https://portfolio-asandilelangeni.netlify.app'
                 }
             ]
         }

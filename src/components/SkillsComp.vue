@@ -1,11 +1,11 @@
 <template lang="">
-    <div class="skills">
+    <div class="skills d-flex">
         <div class="soft">
-            <h3>Soft Skills</h3>
+            <h3 id="tech">Soft Skills</h3>
             <ul>
                 <li>Team Player</li>
                 <li>A great communicator</li>
-                <li>Analtic</li>
+                <li>Analytic</li>
                 <li>Customer service champ</li>
                 <li>Inquisitive</li>
             </ul>
@@ -27,7 +27,6 @@
 </template>
 <script>
 export default {
-  
     name: 'Skills'
 }
 </script>
@@ -36,7 +35,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
+  min-height: 100vh;
 }
 
 .Tech1 {
@@ -45,7 +44,7 @@ export default {
   gap: 5rem;
   justify-content: center;
   align-content: center;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 
 }
 
@@ -65,5 +64,27 @@ border: solid 4px
 }
 #tech{
     margin-top: 50px;
+    font-size: 50px;
+    font-weight: 500;
 }
+@media only screen and (min-width: 768px) {
+  .Tech1, .Tech2 {
+    gap: 5rem;
+  }
+  
+  .Tech1 i, .Tech2 i {
+    font-size: 8em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Tech1, .Tech2 {
+    gap: 10rem;
+  }
+  
+  .Tech1 i, .Tech2 i {
+    font-size: 10em;
+  }
+}
+
 </style>
