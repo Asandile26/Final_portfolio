@@ -1,9 +1,9 @@
 <template lang="">
-    <nav class="navbar">
-        <button class="nav-toggle" aria-label="toggle navigation">
-          <span class="hamburger"></span>
-        </button>
-        <ul class="nav-links">
+ <div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav-links">
           <li class="nav-item">
             <router-link to="/">Home</router-link>
           </li>
@@ -26,23 +26,13 @@
             <a href="#contact">Contact</a>
           </li>
         </ul>
-      </nav>
+
+    </div>
+  </nav>
+</div>
     </template>
     <script>
-    export default {
-        name: "NavBar",
-      mounted() {
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
-        const navToggle = document.querySelector('.nav-toggle');
-        navToggle.addEventListener('click', () => {
-          hamburger.classList.toggle('active');
-          navLinks.classList.toggle('active');
-        });
-      },
-    };
-    
-    
+    export default{}
     </script>
     <style scoped>
     *,

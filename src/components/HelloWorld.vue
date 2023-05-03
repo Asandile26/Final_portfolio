@@ -5,7 +5,7 @@
       <h3>Full Stack Web developer</h3>
       <br>
       <div class="cv">
-        <a href="#" target="_blank">Download CV</a>
+        <a href="https://drive.google.com/file/d/1dB5hotDMKS3O2bDBX6_9sqfReDjqE51x/view?usp=share_link" target="_blank">Download CV</a>
       </div>
     </div>
     <div class="iconz">
