@@ -8,7 +8,7 @@
               </div>
               <div class="text">
           <!-- <p id="about-p1">Hello I am Asandile Langeni</p> -->
-                      <p class="mt-4 " id="about-p">Hello, and welcome to my website! My name is Asandile Langeni, and I am a  graduate of the University of the Western Cape, where I earned a Bachelor of Commerce with a major in Economics and Information Systems. I also have a certificate from Life Choices, which I obtained in 2023. <br><br>
+                      <p class="mt-4 " id="about-p">Hello, welcome to my portfolio! My name is Asandile Langeni, and I am a  graduate of the University of the Western Cape, where I earned a Bachelor of Commerce with a major in Economics and Information Systems. I also have a certificate from Life Choices, which I obtained in 2023. <br><br>
 
 
 I have always been interested in technology and its potential to change the world, and that's what drew me to web development. I believe that the internet has the power to connect people and ideas in ways that were once impossible, and I want to be a part of making that happen.
