@@ -1,4 +1,5 @@
 <template>
+  <h1>RESUME</h1>
   <!--This is the main container that contains the whole timeline.-->
   <section class="design-section">
     <div class="timeline">
@@ -86,7 +87,7 @@ export default {
   
 }
 </script>
-<style>
+<style scope>
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
 .design-section {
@@ -159,6 +160,10 @@ export default {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
+}
+h1{
+  margin: 30px;
+  padding: 30px
 }
   
 </style>

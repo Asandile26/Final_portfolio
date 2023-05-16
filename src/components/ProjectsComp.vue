@@ -74,10 +74,14 @@ data() {
     justify-content: center;
     align-content: center;
 } 
-.btn1, btn2{
+.btn1, .btn2{
     margin: 0 10px;
 }
 /* template{
     height: 120vh;
 }  */
+h1{
+  margin: 50px;
+  padding: 30px
+}
 </style>

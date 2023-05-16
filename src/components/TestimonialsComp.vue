@@ -69,4 +69,8 @@ export default {
   object-position: top;
   background-position: center;
 }
+h1{
+  margin: 50px;
+  padding: 30px
+}
 </style>

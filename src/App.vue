@@ -42,6 +42,10 @@ export default{
 
 
 }
+h1{
+  padding: 10px;
+}
+
 
 
 

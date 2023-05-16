@@ -22,7 +22,7 @@
   </div>
 </template>
 
-<script>
+<script scope>
 export default {
   name: 'Contact',
   data() {
@@ -73,4 +73,8 @@ export default {
 .submit {
   color: rgb(7, 47, 7);
 }
-</style>```
+h1{
+  margin: 50px;
+  padding: 30px
+}
+</style>

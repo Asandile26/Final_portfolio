@@ -66,6 +66,8 @@ border: solid 4px
     margin-top: 50px;
     font-size: 50px;
     font-weight: 500;
+    margin: 50px;
+    padding: 30px
 }
 @media only screen and (min-width: 768px) {
   .Tech1, .Tech2 {
