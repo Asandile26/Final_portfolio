@@ -39,16 +39,18 @@ display: flex;
 justify-content: center;
 align-items: center;
 font-size: large;
+z-index: 1;
 }
-.photo{
+.photo-fluid{
 float: left;
 width: 50%;
-border-radius: 10px;
-height: 7rem;
+border-radius: 20px;
+z-index: 1;
 }
 .text{
 float: right;
-width: 50%;
+width: 70%;
+z-index: 1;
 }
 
 @media (max-width: 700px) {

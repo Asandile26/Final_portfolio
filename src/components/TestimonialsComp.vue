@@ -73,4 +73,7 @@ h1{
   margin: 50px;
   padding: 30px
 }
+.card{
+    z-index: 1;
+}
 </style>

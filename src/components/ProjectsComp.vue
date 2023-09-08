@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="project">
         <h1>PROJECTS</h1>
         <div class="projects">
             <div class="card" style="width: 18rem;" v-for="pro in Projects" :key="pro">
@@ -67,21 +67,24 @@ data() {
 }
 </script>
 <style scoped>
+
 .projects{
     display: flex;
     flex-wrap: wrap;
     gap: 10rem;
     justify-content: center;
     align-content: center;
+    z-index: 0;
 } 
 .btn1, .btn2{
     margin: 0 10px;
 }
-/* template{
-    height: 120vh;
-}  */
+
 h1{
   margin: 50px;
-  padding: 30px
+  padding: 30px;
+}
+.card{
+    z-index: 1;
 }
 </style>
