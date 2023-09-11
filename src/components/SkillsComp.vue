@@ -2,30 +2,18 @@
   <div class="skills d-flex">
     <div class="soft">
       <h3 id="tech">Soft Skills</h3>
-      <div>
-        <button class="btn btn-primary" id="btnz">Team player</button>
-        <label for="button1"></label>
-        <button class="btn btn-primary" id="btnz">A great communicator</button>
-        <label for="button2"></label>
-        <button class="btn btn-primary" id="btnz">Analytic</button>
-        <label for="button3"></label>
-        <button class="btn btn-primary" id="btnz">
-          Customer service champ
-        </button>
-        <label for="button4"></label>
-        <button class="btn btn-primary" id="btnz">Inquisitive</button>
-        <label for="button5"></label>
-        <br />
-        <button class="btn btn-primary" id="btnz">Time Management</button>
-        <label for="button5"></label>
-        <button class="btn btn-primary" id="btnz">Self awareness</button>
-        <label for="button5"></label>
-        <button class="btn btn-primary" id="btnz">Patient</button>
-        <label for="button5"></label>
-        <button class="btn btn-primary" id="btnz">Problem solver</button>
-        <label for="button5"></label>
-        <button class="btn btn-primary" id="btnz">Creativity</button>
-        <label for="button5"></label>
+      <div class="buttons">
+        <button class="raise">Team player</button>
+        <button class="raise">A great communicator</button>
+        <button class="raise">Analytic</button>
+        <button class="raise">Customer service champ</button>
+        <button class="raise">Inquisitive</button>
+        <br>
+        <button class="raise">Time Management</button>
+        <button class="raise">Self awareness</button>
+        <button class="raise">Patient</button>
+        <button class="raise">Problem solver</button>
+        <button class="raise">Creativity</button>
       </div>
     </div>
     <h3 id="tech">Technical Skills</h3>
@@ -57,9 +45,6 @@ export default {
   overflow-x: hidden;
 }
 
-#btnz {
-  z-index: 1;
-}
 .Tech1 {
   display: flex;
   flex-wrap: wrap;
@@ -70,10 +55,35 @@ export default {
 }
 
 button {
-  border-radius: 10px;
-  padding: 5px 10px;
-  margin: 8px;
-  z-index: 1;
+  background: #0c0c0c;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  z-index: 2;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  transition: color 0.25s, box-shadow 0.25s;
+  box-shadow: inset 0 0 0 0 transparent;
+}
+
+button:hover,
+button:focus { 
+  border-color: #fff;
+  color: #fff;
+}
+.raise {
+  color: #fff;
+  
+}
+.raise:hover,
+.raise:focus { 
+  color: #0072ff;
+  box-shadow: 0 0.5em 0.5em -0.3em #0072ff;
+  transform: translateY(-0.25em)
 }
 .Tech2 {
   display: flex;

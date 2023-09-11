@@ -83,8 +83,9 @@ width: 345px;
 height: 50px;
 }
 .cv a {
-display: inline-flex;
+display: flex;
 align-items: center;
+justify-items: center;
 width: 130px;
 height: 85%;
 background: #0072ff;
@@ -102,7 +103,7 @@ display: flex;
 justify-content: space-between;
 position: absolute;
 width: 170px;
-margin: 0 0 145px 1px;
+margin: 0 0 100px 1px;
 padding: 450px 0 0 1px;
 gap: 10px;
 }
