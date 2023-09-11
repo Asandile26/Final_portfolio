@@ -36,18 +36,10 @@ export default{
   color: white;
   background-color: #0c0c0c;
 
-
-
-
-
-
 }
 h1{
   padding: 10px;
 }
-
-
-
 
 
 nav {
@@ -60,10 +52,6 @@ nav a {
   color: white;
 }
 
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 /* responsive styles */
 @media (max-width: 768px) {
   nav {
@@ -89,8 +77,5 @@ nav a.router-link-exact-active {
     margin-bottom: 10px;
   }
 }
-
-
-
 
 </style>
