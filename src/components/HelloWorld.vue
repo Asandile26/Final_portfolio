@@ -46,9 +46,11 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
-
-
+template {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+  }
 
 .landing{
 display: flex;
@@ -57,7 +59,6 @@ align-items: center;
 background-color: #0c0c0c;
 height: 100vh;
 padding: 0 30%;
-overflow-x: hidden;
 z-index: 1;
 }
 .line h1{
@@ -99,10 +100,9 @@ margin-left: 220px;
 display: flex;
 justify-content: space-between;
 position: absolute;
-bottom: 40px;
 width: 170px;
-margin-left: 1px;
-margin-bottom: 145px;
+margin: 0 0 145px 1px;
+padding: 450px 0 0 1px;
 gap: 10px;
 }
 .iconz a {

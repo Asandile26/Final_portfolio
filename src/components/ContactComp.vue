@@ -60,13 +60,14 @@ export default {
 .container {
   width: 45rem;
   margin: auto;
-  z-index: 1;
+  z-index: 0;
+  overflow-x: hidden;
 }
 .form {
   border-style: outset;
   padding: 4rem;
   width: 100%;
-  z-index: 3;
+  z-index: 0;
 }
 #icon {
   display: flex;

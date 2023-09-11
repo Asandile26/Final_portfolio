@@ -64,6 +64,7 @@ flex-direction: column;
 align-items: center;
 min-height: 100vh;
 z-index: 1;
+overflow-x: hidden;
 }
 
 #btnz{

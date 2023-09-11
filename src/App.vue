@@ -27,7 +27,13 @@ export default{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+template {
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+  }
 #app {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,7 +41,9 @@ export default{
   text-align: center;
   color: white;
   background-color: #0c0c0c;
-
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
 }
 h1{
   padding: 10px;

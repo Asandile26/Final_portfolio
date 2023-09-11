@@ -62,6 +62,7 @@ export default {
   gap: 7rem;
   justify-content: center;
   align-content: center;
+  overflow-x: hidden;
 }
 .card-img-top {
   height: 12rem;

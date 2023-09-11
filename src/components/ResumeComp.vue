@@ -9,7 +9,7 @@
         <div class="timeline-circle"></div>
       </div>
       <div class="timeline-component timeline-content">
-        <h2>2022</h2>
+        <h2>2023</h2>
         <p>
           Name of Company: Payment24 <br>
           Duration: June 2023 - August 2023 <br>
@@ -136,7 +136,7 @@ export default {
   min-height: 100vh;
   padding: 100px 0;
   z-index: 1;
- 
+  overflow-x: hidden;
 }
 
 

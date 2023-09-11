@@ -75,6 +75,7 @@ data() {
     justify-content: center;
     align-content: center;
     z-index: 0;
+    overflow-x: hidden;
 } 
 .btn1, .btn2{
     margin: 0 10px;
