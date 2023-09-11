@@ -23,14 +23,13 @@ export default {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     text-align: center;
 }
 .footer p {
-    max-block-size: 500px;
-    margin: 10px auto;
-    line-height: 28px;
+    max-block-size: 100px;
+    line-height: 15px;
     font-size: 14px;
 }
 .sf {

@@ -56,6 +56,7 @@ template {
 display: flex;
 position: relative;
 align-items: center;
+justify-content: center;
 background-color: #0c0c0c;
 height: 100vh;
 padding: 0 30%;
