@@ -66,7 +66,7 @@ button {
   position: relative;
   overflow: hidden;
   color: #fff;
-  transition: color 0.25s, box-shadow 0.25s;
+  transition: color 0.80s, box-shadow 0.25s;
   box-shadow: inset 0 0 0 0 transparent;
 }
 
