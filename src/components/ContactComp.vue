@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" id="contact">
     <h1>CONTACT</h1>
     <div class="container">
       <form class="form" action="https://formspree.io/f/mqkvbjqk" method="POST" @submit.prevent="handleSubmit">
@@ -58,23 +58,25 @@ export default {
 
 <style scoped>
 .container {
+  background: #0c0c0c;
   width: 45rem;
   margin: auto;
-  z-index: 0;
+  z-index: 2;
   overflow-x: hidden;
 }
 .form {
   border-style: outset;
   padding: 4rem;
   width: 100%;
-  z-index: 0;
+  z-index: 2;
+  background: #0c0c0c;
 }
 #icon {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#inputBox{
+#inputBox input{
   z-index: 1;
 }
 @media screen and (max-width: 580px) {

@@ -27,12 +27,16 @@ export default{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 template {
     overflow-x: hidden;
     max-width: 100%;
     width: 100%;
+  }
+
+  html{
+    scroll-behavior: smooth;
+    scroll-padding: 3em;
   }
 #app {
   font-family: 'Open Sans', sans-serif;
@@ -49,11 +53,9 @@ h1{
   padding: 10px;
 }
 
-
 nav {
   padding: 30px;
 }
-
 
 nav a {
   font-weight: bold;

@@ -1,5 +1,5 @@
 <template>
-  <div class="About">
+  <div class="About" id="about">
     <h1>ABOUT</h1>
     <div class="container-fluid">
   <div class="intro col d-flex">
@@ -68,11 +68,11 @@ z-index: 1;
     flex-direction: column;
   }
 }
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .text{
     margin-top: 150px;
   }
-} */
+} 
 .img-fluid{
   height: 30em;
 }

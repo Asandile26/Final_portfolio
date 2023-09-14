@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="resume">
   <h1>RESUME</h1>
   <!--This is the main container that contains the whole timeline.-->
   <section class="design-section">

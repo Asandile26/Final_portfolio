@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="skills d-flex">
+  <div class="skills d-flex" id="skills">
     <div class="soft">
       <h3 id="tech">Soft Skills</h3>
       <div class="buttons">

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="testimonials">
         <h1>TESTIMONIALS</h1>
         <div class="testy">
 
@@ -59,7 +59,7 @@ export default {
 .testy{
   display: flex;
   flex-wrap: wrap;
-  gap: 7rem;
+  gap: 10rem;
   justify-content: center;
   align-content: center;
   overflow-x: hidden;
