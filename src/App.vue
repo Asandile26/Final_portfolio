@@ -53,39 +53,7 @@ h1{
   padding: 10px;
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: white;
-}
-
-/* responsive styles */
-@media (max-width: 768px) {
-  nav {
-    padding: 10px;
-  }
-  nav a {
-    font-size: 14px;
-  }
-  section {
-    margin-bottom: 20px;
-  }
-}
 
 
-@media (max-width: 480px) {
-  nav {
-    padding: 5px;
-  }
-  nav a {
-    font-size: 12px;
-  }
-  section {
-    margin-bottom: 10px;
-  }
-}
 
 </style>

@@ -59,7 +59,7 @@ align-items: center;
 justify-content: center;
 background-color: #0c0c0c;
 height: 100vh;
-padding: 0 30%;
+padding: 0 10%;
 z-index: 1;
 }
 .line h1{
@@ -87,13 +87,14 @@ display: flex;
 align-items: center;
 justify-items: center;
 background: #0072ff;
+width: 230px;
 justify-content: center;
 text-decoration: none;
 border: 2px solid;
 font: inherit;
 line-height: 1;
-margin: 0.5em 0 0 230px;
-padding: 1em 6em;
+padding: 1em 0;
+margin: 25px 0 0 230px;
 z-index: 2;
 cursor: pointer;
 position: relative;
@@ -105,8 +106,8 @@ display: flex;
 justify-content: space-between;
 position: absolute;
 width: 170px;
-margin: 0 0 100px 1px;
-padding: 450px 0 0 1px;
+margin: 0 0 100px 0;
+padding: 450px 0 0 0;
 gap: 10px;
 }
 .iconz a {
@@ -132,8 +133,6 @@ border-radius: 50%;
 box-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff, 0 0 200px #0072ff;
 animation: animate 10s linear infinite;
 }
-
-
 .wrapper span:before {
 content: "";
 content: "";
@@ -152,13 +151,10 @@ border-radius: 50%;
 background-color: #0072ff;
 background-color: #0072ff;
 }
-
-
 .wrapper span:nth-child(1) {
 left: 60px;
 animation-delay: 0.6s;
 }
-
 
 .wrapper span:nth-child(2) {
 left: 10%;
@@ -167,41 +163,34 @@ width: 60px;
 height: 60px;
 }
 
-
 .wrapper span:nth-child(3) {
 left: 20%;
 animation-delay: 2s;
 }
-
 .wrapper span:nth-child(4) {
 left: 30%;
 animation-delay: 5s;
 width: 80px;
 height: 80px;
 }
-
 .wrapper span:nth-child(5) {
 left: 40%;
 animation-delay: 1s;
 }
-
 .wrapper span:nth-child(6) {
 left: 50%;
 animation-delay: 7s;
 }
-
 .wrapper span:nth-child(7) {
 left: 60%;
 animation-delay: 6s;
 width: 100px;
 height: 100px;
 }
-
 .wrapper span:nth-child(8) {
 left: 70%;
 animation-delay: 8s;
 }
-
 .wrapper span:nth-child(9) {
 left: 80%;
 animation-delay: 6s;
@@ -232,6 +221,14 @@ opacity: 0;
 }
 }
 
+@media (min-width: 1025px) {
+  .cv a {
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 150px;
+    padding: 1em 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
 
@@ -247,21 +244,13 @@ opacity: 0;
   .iconz {
     display: flex;
     margin-left: 130px;
-    margin-right: auto;
     padding-top: 40px ;
   }
   .landing{
     display: flex;
   }
 }
-@media (max-width: 1025px) {
-  .cv a {
-    align-items: center;
-    justify-self: center;
-    margin: 0.5em 0 0 120px; 
-    padding: 1em 5em; 
-  }
-}
+
 @media screen and (max-width: 480px) {
   .iconz{
     display: none;
