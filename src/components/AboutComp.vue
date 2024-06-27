@@ -5,7 +5,7 @@
       <div class="intro col d-flex">
         <div class="photo-fluid">
           <img
-            src="https://ibb.co/MRqm1Wxg"
+            src="/src/Assets/DSC_3624.JPG"
             alt="profile img"
             class="img-fluid"
           />
