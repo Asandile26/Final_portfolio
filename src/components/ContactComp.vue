@@ -2,19 +2,52 @@
   <div class="container-fluid" id="contact">
     <h1>CONTACT</h1>
     <div class="container">
-      <form class="form" action="https://formspree.io/f/mqkvbjqk" method="POST" @submit.prevent="handleSubmit">
+      <form
+        class="form"
+        action="https://formspree.io/f/mqkvbjqk"
+        method="POST"
+        @submit.prevent="handleSubmit"
+      >
         <div class="contact">
           <div class="mb-3 text-center" id="inputBox">
-            <input type="text" class="form-control" name="Name" placeholder="Enter your name" required v-model="name">
+            <input
+              type="text"
+              class="form-control"
+              name="Name"
+              placeholder="Enter your name"
+              required
+              v-model="name"
+            />
           </div>
           <div class="mb-3 text-align-center" id="inputBox">
-            <input type="text" class="form-control" name="Surname" placeholder="Enter your surname" required v-model="surname">
+            <input
+              type="text"
+              class="form-control"
+              name="Surname"
+              placeholder="Enter your surname"
+              required
+              v-model="surname"
+            />
           </div>
           <div class="mb-3 text-align-center" id="inputBox">
-            <input type="email" class="form-control" name="Email" placeholder="Enter your email" required v-model="email">
+            <input
+              type="email"
+              class="form-control"
+              name="Email"
+              placeholder="Enter your email"
+              required
+              v-model="email"
+            />
           </div>
           <div class="mb-4" id="inputBox">
-            <textarea class="form-control" placeholder="Leave a comment here"  id="floatingTextarea" v-model="comments">></textarea>
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+              v-model="comments"
+            >
+></textarea
+            >
             <label for="floatingTextarea">Comments</label>
           </div>
           <button type="submit" class="btn btn-primary" id="con">submit</button>
@@ -26,34 +59,36 @@
 
 <script scope>
 export default {
-  name: 'Contact',
+  name: "Contact",
   data() {
     return {
-      name: '',
-      surname: '',
-      email: '',
-      comments: ''
-    }
+      name: "",
+      surname: "",
+      email: "",
+      comments: "",
+    };
   },
   methods: {
-  async handleSubmit() {
-    const formData = {
-      Name: this.name,
-      Surname: this.surname,
-      Email: this.email,
-      Comments: this.comments
-    };
+    async handleSubmit() {
+      const formData = {
+        Name: this.name,
+        Surname: this.surname,
+        Email: this.email,
+        Comments: this.comments,
+      };
 
-    try {
-      const response = await axios.post('https://formspree.io/f/mqkvbjqk', formData);
-      console.log('Form submitted successfully:', response.data);
-    } catch (error) {
-      console.error('Form submission failed:', error);
-    }
-  }
-}
-
-}
+      try {
+        const response = await axios.post(
+          "https://formspree.io/f/mqkvbjqk",
+          formData
+        );
+        console.log("Form submitted successfully:", response.data);
+      } catch (error) {
+        console.error("Form submission failed:", error);
+      }
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -76,7 +111,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
-#inputBox input{
+#inputBox input {
   z-index: 1;
 }
 @media screen and (max-width: 580px) {
@@ -100,8 +135,8 @@ export default {
   }
 }
 
-h1{
+h1 {
   margin: 50px;
-  padding: 30px
+  padding: 30px;
 }
 </style>

@@ -8,7 +8,7 @@
         <button class="raise">Analytic</button>
         <button class="raise">Customer service champ</button>
         <button class="raise">Inquisitive</button>
-        <br>
+        <br />
         <button class="raise">Time Management</button>
         <button class="raise">Self awareness</button>
         <button class="raise">Patient</button>
@@ -66,24 +66,23 @@ button {
   position: relative;
   overflow: hidden;
   color: #fff;
-  transition: color 0.80s, box-shadow 0.25s;
+  transition: color 0.8s, box-shadow 0.25s;
   box-shadow: inset 0 0 0 0 transparent;
 }
 
 button:hover,
-button:focus { 
+button:focus {
   border-color: #fff;
   color: #fff;
 }
 .raise {
   color: #fff;
-  
 }
 .raise:hover,
-.raise:focus { 
+.raise:focus {
   color: #0072ff;
   box-shadow: 0 0.5em 0.5em -0.3em #0072ff;
-  transform: translateY(-0.25em)
+  transform: translateY(-0.25em);
 }
 .Tech2 {
   display: flex;

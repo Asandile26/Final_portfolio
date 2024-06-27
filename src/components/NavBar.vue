@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <nav>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check" />
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
@@ -20,8 +20,8 @@
 
 <script>
 export default {
-  name: 'NavBar'
-}
+  name: "NavBar",
+};
 </script>
 
 <style scoped>
@@ -61,9 +61,10 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-a.active, a:hover {
+a.active,
+a:hover {
   background: #1b9bff;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .checkbtn {
@@ -92,7 +93,7 @@ a.active, a:hover {
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.5s;
     z-index: 2;
   }
   nav ul li {
@@ -103,7 +104,8 @@ a.active, a:hover {
   nav ul li a {
     font-size: 20px;
   }
-  a:hover, a.active {
+  a:hover,
+  a.active {
     background: none;
     color: #0082e6;
   }
